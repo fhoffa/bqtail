@@ -17,7 +17,7 @@ Please refer to [`CHANGELOG.md`](CHANGELOG.md) if you encounter breaking changes
 
 ## Motivation
 
-The goal of this project is to provide a single point of robust and cost-effective event driven, data ingestion to Big Query.
+The goal of this project is to provide a single point of robust and cost-effective event driven, data ingestion to BigQuery.
 BqTail elegantly addresses  BigQuery limitations/restriction/quotas (load jobs per table, project, corrupted data files) with batching and transient project(s)/dataset approach.
 In addition it also provides data transformation enrichment and deduplication capabilities.
 
@@ -34,7 +34,7 @@ To guarantee ingestion speed for critical data it is recommended to use project 
 
 
 _BqTail_ is used by Viant to ingest **70+ billions** transactions _daily_, **1.4 million files** to 100+ tables, all under $15, as viable alternative
-for Big Query Streaming API, BigQuery Transfer Service, Cloud Dataflow. 
+for BigQuery Streaming API, BigQuery Transfer Service, Cloud Dataflow. 
 
 
 ## Introduction
